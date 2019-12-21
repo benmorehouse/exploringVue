@@ -1,33 +1,60 @@
 <template>
 	<div class="calculator">
-		Hello world
+		<h1>Tip Calculator</h1>
+		<div class="button-row">		
+			<Button number="7" />
+			<Button number="8" />
+			<Button number="9" />
+		</div>
+		<div class="button-row">		
+			<Button number="4" />
+			<Button number="5" />
+			<Button number="6" />
+		</div>
+		<div class="button-row">		
+			<Button number="3" />
+			<Button number="2" />
+			<Button number="1" />
+		</div>
+		<div class="button-row">		
+			<Button number="0" />
+			<Button number="." />
+		</div>
 	</div>
 </template>
 
 <script>
+import Button from './Button.vue'
+
 export default {
-  name: 'Calculator',
+	name: 'Calculator',
+	components:{ 
+		Button,
+	}
 }
 </script>
 
 <style scoped>
-
-h3 {
-	margin: 40px 0 0;
+.calculator{
+	height:1000px;
+	width:500px;
+	margin-left:auto;
+	margin-right:auto;
 }
 
-ul {
-	list-style-type: none;
-	padding: 0;
+h1{
+	color:white;	
+	text-shadow:
+	-1px -1px 0 #000,
+	1px -1px 0 #000,
+	-1px 1px 0 #000,
+	1px 1px 0 #000;
 }
 
-li {
-	display: inline-block;
-	margin: 0 10px;
-}
-
-a {
-	color: #42b983;
+.button-row{
+	background-color:grey;
+	width:500px;
+	height:200px;
 }
 
 </style>
@@ -75,7 +102,6 @@ export default {
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 h3 {
   margin: 40px 0 0;
