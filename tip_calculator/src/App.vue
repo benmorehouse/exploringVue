@@ -17,7 +17,7 @@ export default {
 
 <style>
 #app {
-	background-color:#CAC2F9;
+	background-color:white;
 	font-family: 'Avenir', Helvetica, Arial, sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;

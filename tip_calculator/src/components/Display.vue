@@ -16,10 +16,11 @@ export default {
 <style scoped>
 
 .display{
-	color:white;
-	background-color:#393A47;
+	color:#D4D4D2;
+	background-color:#1c1c1c;
 	text-align:right;
 	height:100px;
+	padding-right:10px;
 }
 
 .expression-wrapper{
