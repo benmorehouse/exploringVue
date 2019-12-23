@@ -1,8 +1,12 @@
 <template>
 	<div id="mainpage">
-		<Button class="page-selection" @click="switchPage('./LogInPage')">Log In</Button>
+		<Button class="page-selection">
+			<router-link to='/pages/SignUpPage'>Sign Up</router-link>	
+		</Button>
 		<br>
-		<Button class="page-selection" @click="switchPage('./SignUpPage')">Sign Up</Button>
+		<Button class="page-selection">
+			<router-link to='/pages/LoginPage'>Login Page</router-link>	
+		</Button>
 	</div>
 </template>
 

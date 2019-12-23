@@ -3,7 +3,6 @@
 		<input v-model="Username" placeholder="Username">
 		<input v-model="Password" placeholder="Password">
 		<input v-model="ConfirmPassword" placeholder="Confirm Password">
-		<router-view></router-view>
 	</div>
 </template>
 

@@ -13,7 +13,7 @@ export default {
 		switchPage:function(){
 			this.$router.push()
 		}
-	}
+	},
 		
 }
 </script>
