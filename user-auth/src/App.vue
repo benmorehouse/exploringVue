@@ -1,29 +1,25 @@
 <template>
-	<div id="app">
-		<Mainpage />
-	</div>
+	<MainPage/>
 </template>
 
 <script>
-
-import Mainpage from './pages/MainPage.vue';
+import MainPage from './pages/MainPage.vue'
 
 export default {
-	name: 'App',
+	name: 'app',
 	components: {
-		Mainpage,
+		MainPage,	
 	}
 }
-
 </script>
 
 <style>
-
-#app{
-	background-color:grey;
-	margin:-10px;	
-	width:auto;
-	height:1000px;
+#app {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
 }
-
 </style>
