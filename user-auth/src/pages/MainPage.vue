@@ -1,12 +1,7 @@
 <template>
 	<div id="mainpage">
-		<Button class="page-selection">
-			<router-link to='/pages/SignUpPage'>Sign Up</router-link>	
-		</Button>
-		<br>
-		<Button class="page-selection">
-			<router-link to='/pages/LoginPage'>Login Page</router-link>	
-		</Button>
+		<button @click='switchPage()'> Login </button>
+		<button @click='switchPage()'> Login </button>
 	</div>
 </template>
 
@@ -14,11 +9,11 @@
 export default {
 	name: 'Mainpage',
 	methods:{
-		switchPage:function(value){
-			this.$router.replace(value)
+		switchPage:function(){
+			this.$router.push({path:'/SignUpPage'})
 		}
-	}
-		
+	},
+
 }
 </script>
 
