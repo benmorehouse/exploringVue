@@ -1,8 +1,12 @@
 <template>
 	<div>
 		<input v-model="Username" placeholder="Username">
+		<br>
+
 		<input v-model="Password" placeholder="Password">
+		<br>
 		<input v-model="ConfirmPassword" placeholder="Confirm Password">
+		<br>
 	</div>
 </template>
 
@@ -28,10 +32,13 @@ export default {
 <style scoped>
 
 input{
+	margin:10px;
 	width:200px;
+	border-radius:5px;
 }
 
 button{
+	margin-top:100px;
 	width:100px;
 	height:40px;
 	background-color:grey;
