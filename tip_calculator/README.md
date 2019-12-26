@@ -1,24 +1,5 @@
-# tip_calculator
+# tipcalculator
 
-## Project setup
-```
-yarn install
-```
+This is my first project using vuejs. It is compiled only of Vue Components, and explores the basics of the framework.
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
 
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
