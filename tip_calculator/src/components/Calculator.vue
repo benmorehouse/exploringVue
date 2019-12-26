@@ -152,6 +152,7 @@ export default {
 </script>
 
 <style scoped>
+
 .calculator{
 	height:1000px;
 	width:400px;

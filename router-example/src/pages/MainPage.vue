@@ -1,15 +1,14 @@
 <template>
 	<div id="mainpage">
-		
-	<router-link to="/">MainPage</router-link>
-	<br>
-	<router-link to="/SignUpPage">SignUpPage</router-link>
-	<br>
-	<router-link to="/SuccessfullyLoggedIn">Success</router-link>
-	<br>
-	<router-link to="/LoginPage">Login</router-link>
-	<br>
-	<router-view class="view"></router-view>
+		<router-link to="/">MainPage</router-link>
+		<br>
+		<router-link to="/SignUpPage">SignUpPage</router-link>
+		<br>
+		<router-link to="/SuccessfullyLoggedIn">Success</router-link>
+		<br>
+		<router-link to="/LoginPage">Login</router-link>
+		<br>
+		<router-view class="view"></router-view>
 	</div>
 </template>
 
@@ -21,7 +20,7 @@ export default {
 
 </script>
 
-<style>
+<style scoped>
 #mainpage{
 	background-color:grey;	
 	margin-left:0px;	

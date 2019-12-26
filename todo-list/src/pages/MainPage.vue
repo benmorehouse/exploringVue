@@ -1,14 +1,21 @@
 <template>
-	<topBar />
+	<div id="text">
+		<h1> Welcome to STD 2.0 </h1>
+		<p>
+			This is a mock of my most favorite project that I wrote in Go. You can take a look at it 
+			<a href="https://github.com/benmorehouse/std">here</a>!
+		</p>
+		<p>
+			You are able to add, remove and view your tasks at hand.	
+		</p>
+	</div>
 </template>
 
 <script>
-import topBar from '../components/topBar.vue'
 
 export default {
 	name: "MainPage",
 	components:{
-		topBar,
 	}
 }
 
@@ -17,12 +24,8 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 
-.topBar{
-	margin-left:-30px;
-	margin-top:-10px;
-	margin-right:-30px;
-	height:100px;
-	background-color:#c41e3a;
+#text{
+	text-align:center;
 }
 
 </style>

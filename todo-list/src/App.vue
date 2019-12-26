@@ -1,22 +1,20 @@
 <template>
-  <div id="app">
-		<MainPage />
-  </div>
+	<div>
+		<BodyFramework />	
+	</div>
 </template>
 
 <script>
-import MainPage from './pages/MainPage.vue'
+import BodyFramework from './components/topBar.vue';
 
 export default {
 	name: 'app',
-	components: {
-		MainPage,
+	components:{
+		BodyFramework,
 	}
 }
+
 </script>
 
 <style>
-#app {
-
-}
 </style>
