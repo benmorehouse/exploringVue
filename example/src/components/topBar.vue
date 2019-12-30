@@ -7,6 +7,7 @@
 				<router-link class="router-link" to="/View">View Tasks</router-link>
 			</div>
 		</div>
+		
 		<router-view class="view"></router-view>
 		<div class="bottom-bar">
 			Copyright 2019 <a href="https://github.com/benmorehouse">Benjamin Morehouse</a>
@@ -15,6 +16,7 @@
 </template>
 
 <script>
+
 export default {
 	name: "topBar",
 }
@@ -51,6 +53,8 @@ export default {
 	margin-top:40px;
 	float:left;
 	height:20px;
+	padding-top:10px;
+	padding-bottom:10px;
 	width:250px;
 	text-align:center;
 	background-color:#ffd700;
@@ -91,7 +95,7 @@ export default {
 	height:30px;
 	margin-left:-10px;
 	margin-right:-10px;
-	margin-top:20px;
+	margin-top:-20px;
 	margin-bottom:0px;
 	padding-top:5px;
 	font-size:10px;

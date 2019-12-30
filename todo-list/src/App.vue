@@ -6,7 +6,6 @@
 
 <script>
 import BodyFramework from './components/topBar.vue';
-
 export default {
 	name: 'app',
 	components:{

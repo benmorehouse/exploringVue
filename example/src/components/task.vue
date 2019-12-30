@@ -4,6 +4,7 @@
 			<div class="task-text">
 				{{expression}}
 			</div>
+			<button class="delete-button" @click="detelTask"><strong>X</strong></button>
 		</div>
 	</div>
 </template>
@@ -13,8 +14,13 @@
 export default {
 	name: "task",
 	props:{
-		expression: String,
+		expression:String
 	},
+	methods:{
+		deleteTask:function(){
+			// need to 	
+		}	
+	}
 }
 
 </script>
@@ -43,6 +49,20 @@ export default {
 	border-radius:10px;
 	height:32px;
 	width:402px;
+}
+
+.delete-button{
+	background-color:Transparent;
+	border:none;
+	color:black;
+	text-align:center;
+	width:20px;
+	height:20px;
+	position:relative;
+	bottom:25px;
+	left:180px;
+	outline: none !important;
+	outline-offset: none !important;
 }
 
 </style>
